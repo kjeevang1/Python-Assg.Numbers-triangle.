@@ -1,0 +1,12 @@
+#Python programming
+#To find roots of quadratic equation
+
+a=int(input ("Enter coeff of x² ="))
+b=int(input ("Enter coeff of x ="))
+c=int(input("Enter constant term "))
+dis=((b*b)-4*a*c)**0.5
+root1=(-b+dis)/(2*a)
+root2=(-b-dis)/(2*a)
+print("Roots of {}x² + {}x + {} = 0 are".format(a,b,c))
+print("Root 1 is ",root1)
+print ("Root 2 is ",root2)
