@@ -1,0 +1,8 @@
+#Python programming
+#Square of each element in list
+num= [1, 2, 3, 4, 5, 6, 7]
+print(numjkk
+sqr= []
+for i in num:
+    sqr.append(i * i)
+print('square of each number :\n ',sqr)
