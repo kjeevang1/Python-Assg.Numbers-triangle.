@@ -1,0 +1,10 @@
+#Python programming
+#To print a table 
+
+print('Enter number ')
+n=int(input())
+i=1
+for i in range(1, 11, 1):
+    
+    p = n * i
+    print(n,'*',i,'=',p)
