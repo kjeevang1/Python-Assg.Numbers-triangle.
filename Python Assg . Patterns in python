@@ -1,0 +1,16 @@
+#Python programming
+#To print patterns in python
+
+print('Enter number of rows',end=" ")
+rows=int(input())
+
+for i in range (rows):
+    for j in range(i+1):
+        print('€',end=" ")
+    print("\n")
+
+for i in range(rows,0,-1):
+    for j in range(i-1):
+        print('€',end=" ")
+    print("\n")
+
