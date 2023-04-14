@@ -1,0 +1,26 @@
+#Python programming
+#To find no.of letters, digits and specific chars in a string
+print('Enter a string ')
+string=str(input())
+l=0
+d=0
+c=0
+
+for i in string:
+    if i.isalpha():
+        l=l+1
+    elif i.isdigit():
+        d=d+1
+    else:
+        c=c+1
+            
+print("No.of letter - ",l)
+print("No.of digits - ",d)
+print("No.of special chars - ",c)
+
+#To find length of string
+f=0
+for j in string:
+    f=f+1
+print("Length of the string is:",end=" ")
+print(f)
