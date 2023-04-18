@@ -9,6 +9,5 @@ print('Subraction : {} + {} = {}'.format(a,b,a-b))
 print('Multiplication : {} * {} ={}'.format(a,b,a*b))
 print('Division : {} / {} = {}'.format(a,b,a/b))
 print('Modulus : {} % {} = {}'.format(a,b,a%b))
-print('Exponential : {} ** 
-{} = {}'.format(a,b,a**b))
+print('Exponential : {} ** {} = {}'.format(a,b,a**b))
 print('Floor division: {} // {} = {}'.format(a,b,a//b))
